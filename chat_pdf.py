@@ -2,10 +2,9 @@
 import os
 import tempfile
 import streamlit as st
-from dotenv import load_dotenv  # For loading environment variables
+from dotenv import load_dotenv  
 from embedchain import App
 
-# Load environment variables from .env file
 load_dotenv()
 
 def embedchain_bot(db_path, api_key):
@@ -40,6 +39,4 @@ if openai_access_token:
         answer = app.chat(prompt)
         st.write(answer)
 
-# =======
-# >>>>>>> c4c23c6701730191dcca2308935dfd4238e39338
 st.markdown("Built by Farah")
