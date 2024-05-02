@@ -12,7 +12,6 @@
 ## Built With
 
 - **Streamlit** - Streamlit is used to create the web interface that facilitates the interaction between the user and the PDF content.
-- Farah (Creator's name) — Additional details can be added about other technologies used, such as specific frameworks, libraries, or services.
 
 ## Getting Started
 
